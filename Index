@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Scores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header, footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    main {
+        padding: 20px;
+    }
+    
+    .live-scores, .upcoming-matches {
+        margin-bottom: 30px;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    li {
+        padding: 10px 0;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+
+<body>
+    
+    <header>
+        <h1>Cricket Scores</h1>
+    </header>
+    <main>
+        <section class="live-scores">
+            <h2>Live Scores</h2>
+            <ul>
+                <li>Team A vs Team B - Score: 150/3 (20 overs)</li>
+                <li>Team C vs Team D - Score: 120/5 (15 overs)</li>
+                <!-- Add more live scores here -->
+            </ul>
+        </section>
+        <section class="upcoming-matches">
+            <h2>Upcoming Matches</h2>
+            <ul>
+                <li>Team E vs Team F - Date: May 12, 2024</li>
+                <li>Team G vs Team H - Date: May 15, 2024</li>
+                <!-- Add more upcoming matches here -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cricket Scores</p>
+    </footer>
+</body>
+</html>
